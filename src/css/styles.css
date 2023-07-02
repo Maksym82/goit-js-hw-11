@@ -6,7 +6,7 @@ html {
 body {
   font-family: 'Lucida Sans', sans-serif;
   font-size: 18px;
-  background-color: #dee9f2;
+  background-color: #0badc2;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.01em;
@@ -37,7 +37,7 @@ input[type='text'] {
   width: 200px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #434455;
+  border: 1px solid #5358c4;
   font-size: 18px;
   transition: width 0.4s ease-in-out;
   outline: none;
@@ -46,14 +46,16 @@ input[type='text'] {
 input[type='text']:valid {
   border-color: rgb(64, 60, 96, 0.3);
 }
-input[type='text']:focus {
+/* input[type='text']:focus {
   width: 50%;
   outline: 1px solid #434455;
-}
-input[type='text']:hover {
+} */
+/* input[type='text']:hover {
   animation: pulse 0.5s ease-in-out;
-}
+} */
 button {
+  display: flex;
+  justify-content: center;
   width: 200px;
   padding: 10px 16px;
   margin-top: 10px;
@@ -62,19 +64,19 @@ button {
   cursor: pointer;
   font-size: 18px;
   color: #fff;
-  background-color: #434455;
+  background-color: #2b474d;
 }
 @keyframes pulse {
   from {
     box-shadow: 0 0 25px #434455, 0 0 50px #fff;
   }
 }
-button:focus,
+/* button:focus,
 button:hover {
   background-color: #434455;
   color: #fff;
   animation: pulse 0.5s ease-in-out;
-}
+} */
 .gallery {
   display: flex;
   flex-wrap: wrap;
